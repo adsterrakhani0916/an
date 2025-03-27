@@ -1,70 +1,168 @@
 <!DOCTYPE html>
-<html lang="fa">
+<html lang="fa" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>سیگنال‌های حرفه‌ای باینری آپشن</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>سیگنال‌های حرفه‌ای باینری آپشن | IR.BO</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
-    <!-- نوار بالا -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow">
-        <div class="container">
-            <a class="navbar-brand fw-bold text-primary" href="#">IR.BO</a>
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link text-dark" href="#">خانه</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="#">درباره ما</a></li>
-                    <li class="nav-item"><a class="nav-link text-dark" href="#">ارتباط با ما</a></li>
-                </ul>
-            </div>
+  <!-- هدر سایت -->
+  <header class="main-header">
+    <div class="container">
+      <div class="logo">
+        <a href="#">IR.BO</a>
+      </div>
+      <nav class="nav-links" id="navLinks">
+        <ul>
+          <li><a href="#features">ویژگی‌ها</a></li>
+          <li><a href="#vip-plans">پلن‌های VIP</a></li>
+          <li><a href="#bot">ربات خودکار</a></li>
+          <li><a href="#support">پشتیبانی</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- سکشن معرفی -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h1>سیگنال‌های حرفه‌ای باینری آپشن</h1>
+      <p>
+        با کمک ربات باینری یار <strong>IR.BO</strong> به سادگی می‌توانید در بازارهای مالی
+        باینری آپشن سیگنال‌های لحظه‌ای دریافت کرده و تریدهای موفقی داشته باشید.
+      </p>
+
+      <div class="hero-stats">
+        <div class="stat-box">
+          <h2>80% +</h2>
+          <p>دقت سیگنال‌ها</p>
         </div>
-    </nav>
-
-    <!-- بخش اصلی -->
-    <header class="hero">
-        <div class="container text-center">
-            <h1 class="fw-bold">سیگنال‌های حرفه‌ای <span class="text-primary">باینری آپشن</span></h1>
-            <p class="lead">با کمک ربات تلگرامی IR.BO به تحلیل‌های حرفه‌ای و سیگنال‌های دقیق دسترسی داشته باشید.</p>
-            <a href="#" class="btn btn-primary btn-lg animate-button">شروع کنید</a>
-            <a href="#" class="btn btn-outline-secondary btn-lg">درباره ما</a>
+        <div class="stat-box">
+          <h2>+200</h2>
+          <p>سیگنال روزانه</p>
         </div>
-    </header>
-
-    <!-- ویژگی‌ها -->
-    <section class="features py-5">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <div class="feature-box shadow p-4">
-                        <h3 class="fw-bold text-success">سرعت عمل بالا</h3>
-                        <p>واکنش سریع به تغییرات بازار</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box shadow p-4">
-                        <h3 class="fw-bold text-danger">اعلان‌های لحظه‌ای</h3>
-                        <p>دریافت فوری سیگنال‌ها از طریق تلگرام</p>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="feature-box shadow p-4">
-                        <h3 class="fw-bold text-primary">امنیت بالا</h3>
-                        <p>محافظت از اطلاعات و سرمایه شما</p>
-                    </div>
-                </div>
-            </div>
+        <div class="stat-box">
+          <h2>سرعت فوق‌العاده</h2>
+          <p>ارائه لحظه‌ای</p>
         </div>
-    </section>
+      </div>
 
-    <!-- پاورقی -->
-    <footer class="bg-dark text-white text-center py-3">
-        <p>تمامی حقوق برای IR.BO محفوظ است.</p>
-    </footer>
+      <!-- یک باکس نمونه برای اشاره به سیگنال‌های لحظه‌ای -->
+      <div class="signal-box">
+        <h2>سیگنال‌های لحظه‌ای</h2>
+        <p>
+          به صورت آنی و بدون تاخیر، سیگنال‌های ورود به معامله را دریافت کنید و درصد برد خود را افزایش دهید.
+        </p>
+      </div>
+    </div>
+  </section>
 
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- ویژگی سیگنال‌ها -->
+  <section class="features" id="features">
+    <div class="container">
+      <h2>ویژگی سیگنال‌های تلگرامی IR.BO</h2>
+      <div class="features-grid">
+        <div class="feature-item">
+          <h3>پشتیبانی مادام‌العمر</h3>
+          <p>هر زمان که نیاز به راهنمایی داشته باشید، تیم ما پاسخگو است.</p>
+        </div>
+        <div class="feature-item">
+          <h3>دقت بالای سیگنال‌ها</h3>
+          <p>با تحلیل دقیق و بررسی مداوم، سیگنال‌های باکیفیت ارائه می‌شود.</p>
+        </div>
+        <div class="feature-item">
+          <h3>ارائه چندین سبک معاملاتی</h3>
+          <p>انواع سبک‌های معاملاتی برای سلیقه‌ها و استراتژی‌های مختلف.</p>
+        </div>
+        <div class="feature-item">
+          <h3>آموزش ویدیویی اختصاصی</h3>
+          <p>آموزش‌های کاربردی برای استفاده بهتر از سیگنال‌ها و ترید موفق.</p>
+        </div>
+        <div class="feature-item">
+          <h3>آموزش استراتژی‌ها</h3>
+          <p>استراتژی‌های مهم بازار برای تریدهای باینری آپشن در اختیار شماست.</p>
+        </div>
+        <div class="feature-item">
+          <h3>سرعت انتشار بالا</h3>
+          <p>سیگنال‌ها در لحظه و با سرعت بالا در کانال تلگرام ارسال می‌شوند.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- پلن‌های VIP و اشتراک ویژه -->
+  <section class="vip-plans" id="vip-plans">
+    <div class="container">
+      <h2>پلن‌های VIP</h2>
+      <p class="section-subtitle">اشتراک‌های ویژه IR.BO برای تجربه کامل‌تر</p>
+      
+      <div class="plans-grid">
+        <!-- باکس اول -->
+        <div class="plan-box">
+          <h3>اشتراک عادی</h3>
+          <ul>
+            <li>دریافت سیگنال‌های عمومی</li>
+            <li>پشتیبانی ۲۴ ساعته</li>
+            <li>دسترسی به کانال تلگرام</li>
+          </ul>
+          <h3>اشتراک OTO (اوتو)</h3>
+          <ul>
+            <li>دریافت سیگنال‌های ویژه OTO</li>
+            <li>امکان اجرای خودکار معاملات</li>
+            <li>آپدیت‌های جدید ربات</li>
+          </ul>
+        </div>
+
+        <!-- باکس دوم -->
+        <div class="plan-box">
+          <h3>اشتراک ویژه</h3>
+          <ul>
+            <li>تمام امکانات اشتراک عادی + OTO</li>
+            <li>سیگنال‌های پیشرفته VIP</li>
+            <li>آموزش اختصاصی و حرفه‌ای</li>
+            <li>پشتیبانی اختصاصی و VIP</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ربات معاملاتی خودکار -->
+  <section class="bot" id="bot">
+    <div class="container">
+      <h2>ربات معاملاتی خودکار باینری آپشن IR.BO</h2>
+      <p>
+        شما می‌توانید ۲۴ ساعته در بازار باینری آپشن فعالیت داشته باشید و با کمک ربات خودکار IR.BO
+        بدون نیاز به حضور مداوم پشت سیستم، معاملات را به صورت خودکار اجرا کنید.
+      </p>
+      <button class="btn-buy">خرید ربات IR.BO</button>
+    </div>
+  </section>
+
+  <!-- بخش پشتیبانی -->
+  <section class="support" id="support">
+    <div class="container">
+      <h2>پشتیبانی سایت</h2>
+      <p>جهت دریافت اطلاعات بیشتر و راهنمایی در خصوص پلن‌ها و ربات، با پشتیبانی در ارتباط باشید.</p>
+      <p>ایمیل پشتیبانی: <a href="mailto:support@irbo.com">support@irbo.com</a></p>
+      <p>شماره تماس: <a href="tel:+980000000">+98 000 0000</a></p>
+    </div>
+  </section>
+
+  <!-- فوتر ساده -->
+  <footer class="main-footer">
+    <div class="container">
+      <p>تمامی حقوق محفوظ است &copy; IR.BO</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-  </html>
+</html>
